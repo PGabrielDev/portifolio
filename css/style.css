@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nome {
+  font-size: 2rem;
+}
+li {
+  list-style: none;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+header a {
+  font-size: 1rem;
+}
