@@ -27,3 +27,23 @@ header nav ul {
 header a {
   font-size: 1rem;
 }
+.quem_sou img {
+  max-width: 320px;
+  display: block;
+}
+h1 {
+  font-size: 4.5rem;
+}
+.titulo_localizacao {
+  padding: 1.5rem;
+  background-image: url("/img/detalhe.svg");
+  background-repeat: no-repeat;
+  background-size: 120px;
+  display: grid;
+  align-self: center;
+}
+.quem_sou {
+  display: grid;
+  grid-template-columns: 0.68fr 1fr;
+  justify-items: center;
+}
