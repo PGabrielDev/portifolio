@@ -44,6 +44,48 @@ h1 {
 }
 .quem_sou {
   display: grid;
-  grid-template-columns: 0.68fr 1fr;
-  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+}
+.experiencia h2 {
+  font-size: 9rem;
+  color: #e0e0e0;
+}
+.experiencia_container {
+  padding: 1.5rem;
+  display: grid;
+  flex-direction: column;
+  gap: 2rem;
+  align-content: flex-start;
+}
+.experiencia_lista {
+  display: grid;
+  gap: 1rem;
+}
+
+.experiencia_container_item {
+  display: flex;
+  gap: 0.5rem;
+}
+.experiencia_container_item_container {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.experiencia_tecnologias {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.experiencia_tecnologias li {
+  background-color: white;
+  border-radius: 4px;
+  padding: 9px;
 }
