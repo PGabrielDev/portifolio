@@ -52,8 +52,9 @@ h1 {
   grid-template-columns: 0.9fr 1fr;
 }
 .experiencia h2 {
-  font-size: 9rem;
+  font-size: 8rem;
   color: #e0e0e0;
+  white-space: normal;
 }
 .experiencia_container {
   padding: 1.5rem;
@@ -93,9 +94,55 @@ h1 {
 .formacao {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: #a3a3a3;
+  background-color: #141414;
 }
 
 .formacao h2 {
   color: black;
   font-size: 9rem;
+}
+.formacao_item {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.formacao_item li {
+  background-color: black;
+  padding: 2rem;
+  width: 204px;
+  border-radius: 4px;
+}
+.formacao_item li .nivel_curso,
+.formacao_item li .instituicao {
+  color: #a3a3a3;
+}
+.curso {
+  color: white;
+}
+.curso_lista {
+  max-width: 720px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+.formacao_item_faculdade {
+  align-self: center;
+}
+.formação_item_curso {
+  display: grid;
+  gap: 0.5rem;
+  grid-row: 2;
+  grid-column: 2/3;
+}
+.formação_item_idiomas {
+  display: grid;
+  gap: 0.5rem;
+  grid-column: 2/3;
+}
+.formação_item_idiomas {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
