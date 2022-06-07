@@ -15,3 +15,19 @@ img {
   max-width: 100%;
   display: block;
 }
+.subtitulo {
+  font-size: 8rem;
+  word-break: break-all;
+  max-width: 5ch;
+  text-transform: uppercase;
+  color: #d5d5d5;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    max-width: initial;
+    text-transform: capitalize;
+    font-size: 4rem;
+    color: #141414;
+  }
+}
