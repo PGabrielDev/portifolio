@@ -18,6 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 header nav ul {
   display: flex;
@@ -44,11 +45,13 @@ h1 {
 .quem_sou {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 1rem;
 }
 
 .experiencia {
   display: grid;
   grid-template-columns: 0.9fr 1fr;
+  padding: 1rem;
 }
 .experiencia h2 {
   font-size: 8rem;
@@ -95,6 +98,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   color: #a3a3a3;
   background-color: #141414;
+  padding: 1rem;
 }
 
 .formacao h2 {
@@ -157,6 +161,7 @@ footer {
 footer article {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 1rem;
 }
 footer article div {
   display: grid;
@@ -165,6 +170,9 @@ footer article div {
 footer a {
   color: white;
   text-decoration: none;
+  font-size: 1.5rem;
+}
+.disponibilidade_contato {
 }
 .disponibilidade {
   max-width: 430px;
