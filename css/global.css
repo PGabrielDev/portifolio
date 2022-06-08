@@ -25,7 +25,7 @@ img {
 
 @media (max-width: 800px) {
   .subtitulo {
-    max-width: initial;
+    max-width: initial !important;
     text-transform: capitalize;
     font-size: 4rem;
     color: #141414;
