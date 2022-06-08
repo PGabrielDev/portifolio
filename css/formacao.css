@@ -85,6 +85,9 @@
   .faculdade {
     font-size: 0.85rem;
   }
+  .formacao-container::after {
+    display: none;
+  }
 }
 .formacao strong {
   color: white;
