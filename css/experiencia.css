@@ -41,7 +41,9 @@
 .experiencia-ano {
   position: absolute;
   top: 20px;
-  left: -50px;
+  left: -150px;
+  width: 140px;
+  text-align: right;
 }
 
 .experiancia-tecnologias {
@@ -62,12 +64,6 @@
     grid-template-columns: 1fr;
     gap: 20px;
   }
-}
-@media (max-width: 550px) {
-  .experiancia-empresa {
-    grid-template-columns: 1fr;
-    font-size: 1rem;
-  }
   .experiencia-ano {
     position: initial;
     order: 1;
@@ -75,5 +71,11 @@
   }
   .experiencia-ano::before {
     content: "Ano: ";
+  }
+}
+@media (max-width: 550px) {
+  .experiancia-empresa {
+    grid-template-columns: 1fr;
+    font-size: 1rem;
   }
 }
