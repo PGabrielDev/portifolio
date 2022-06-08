@@ -1,0 +1,48 @@
+.footer {
+  background: black;
+}
+.footer-container {
+  max-width: 1200px;
+  padding: 80px 20px 20px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+.footer-list li {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.footer-list li a {
+  color: white;
+}
+
+.reservados {
+  font-size: 1.3rem;
+  grid-column: 1/3;
+}
+
+@media (max-width: 800px) {
+  .footer-texto {
+    font-size: 1.3rem;
+    line-height: 0.9;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .footer-container a {
+    color: white;
+
+    font-size: 1.3rem;
+  }
+  .reservados {
+    font-size: 1rem;
+    grid-column: 1/1;
+  }
+}

@@ -17,10 +17,10 @@
   content: "";
   display: block;
   position: absolute;
-  top: -15px;
+  top: -35px;
   left: -40px;
   width: 130px;
-  height: 100px;
+  height: 130px;
   background-image: url("../img/detalhe.svg");
   background-repeat: no-repeat;
   z-index: -1;
